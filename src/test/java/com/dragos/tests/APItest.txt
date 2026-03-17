@@ -1,16 +1,16 @@
 #Test: Verifică că un request GET la https://jsonplaceholder.typicode.com/todos/1 returnează status 200 și conține un title.
 
 -- ARRANGE --
-1. Încarcă fișierul de configurare 'app.yaml'.
-2. Extrage valoarea 'baseUrl' din configurație.
-3. Construiește endpoint-ul specific: "/todos/1".
-4. Definește URL-ul complet combinând baseUrl și endpoint.
+1. Incarca fisierul de configurare 'app.yaml'.
+2. Extrage valoarea 'baseUrl'.
+3. Creaza endpoint-ul specific: "/todos/1".
+4. Defineste URL-ul complet (baseUrl și endpoint).
 
 -- ACT --
 5. Trimite un request de tip GET la URL-ul complet.
-6. Stochează răspunsul primit de la server.
+6. Retine raspunsul primit de la server.
 
 -- ASSERT --
-7. Verifică dacă status code-ul din răspuns este 200 (OK).
-8. Verifică dacă răspunsul (body-ul JSON) conține o cheie numită "title".
-9. Verifică dacă valoarea cheii "title" nu este goală sau null.
+7. Verifica daca status code-ul din raspuns este 200 (OK).
+8. Verifica daca raspunsul (body-ul JSON) contine o cheie numita "title".
+9. Verifica daca valoarea cheii "title" nu este goala sau null.
