@@ -13,7 +13,7 @@ Local, folosim comanda *mvn test* (Java si Maven preinstalate).
 Tips&tricks: Maven nu are executabil de instalare -> descarci zip si extragi datele -> configurezi variabilele de mediu -> rulezi in cmd mvn -version 
 
 
-Folosind Docker si pipeline configurat in App.yaml (\config), executand urmatorii pasi:
+Folosind Docker si pipeline configurat in App.yaml (\config) + pom.xml (pentru Maven), executand urmatorii pasi:
 
 Construieste imaginea Docker:
 *docker build -t qa-project-java .*
