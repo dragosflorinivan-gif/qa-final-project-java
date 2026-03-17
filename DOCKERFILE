@@ -12,7 +12,7 @@ COPY pom.xml .
 # Acest pas se va refolosi din cache dacă pom.xml nu se schimbă.
 RUN mvn dependency:go-offline
 
-# Copiem restul codului sursă al proiectului
+# Copiem restul codului sursă al proiectului  
 COPY src ./src
 
 # Etapa 2: Rularea testelor
