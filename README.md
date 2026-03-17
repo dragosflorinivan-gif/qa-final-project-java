@@ -1,6 +1,6 @@
-"# qa-final-project-java" 
-
 Badge status
+
+
 [![CI Pipeline for QA Project](https://github.com/dragosflorinivan-gif/qa-final-project-java/actions/workflows/ci.yaml/badge.svg)](https://github.com/dragosflorinivan-gif/qa-final-project-java/actions/workflows/ci.yaml)
 
 SCOPE
