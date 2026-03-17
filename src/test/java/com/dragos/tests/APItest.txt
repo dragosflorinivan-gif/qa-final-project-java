@@ -1,0 +1,7 @@
+Test: Verifică preluarea unui "todo" item și validarea titlului
+
+-- ARRANGE --
+
+-- ACT --
+
+-- ASSERT --
