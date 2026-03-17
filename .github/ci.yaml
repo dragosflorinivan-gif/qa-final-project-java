@@ -1,4 +1,4 @@
-# Numele workflow-ului, vizibil în tab-ul "Actions" din GitHub
+# Numele workflow-ului, vizibil în tab-ul "Actions" din GitHub  
 name: CI Pipeline for QA Project
 
 # Trigger: pornește acest workflow la orice push în branch-ul 'main'
