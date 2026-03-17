@@ -1,9 +1,10 @@
+# Fișier de configurare pentru mediul de testare
 env: "staging"
 
 service:
-  name: "jsonplaceholder-api"
-  baseUrl: "https://jsonplaceholder.typicode.com"
+  name: "Hapifyme API"
+  baseUrl: "https://apps.qualiadept.eu/hapifyme"
 
 timeouts:
-  connectMs: 1000
-  readMs: 3000
+  connect: 5000   # 5 secunde
+  read: 10000     # 10 secunde
