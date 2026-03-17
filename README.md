@@ -11,7 +11,6 @@ EXECUTARE
 
 Local, folosim comanda *mvn test* (Java si Maven preinstalate). 
 Tips&tricks: Maven nu are executabil de instalare -> descarci zip si extragi datele -> configurezi variabilele de mediu -> rulezi in cmd mvn -version 
-target/maven-status/maven-compiler-plugin/testCompile/default-testCompile
 
 
 Folosind Docker si pipeline configurat in App.yaml (\config), executand urmatorii pasi:
