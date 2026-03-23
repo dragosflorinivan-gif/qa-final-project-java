@@ -2,8 +2,8 @@
 env: "staging"
 
 service:
-  name: "Hapifyme API"
-  baseUrl: "https://apps.qualiadept.eu/hapifyme"
+  name: "JSONPLACEHOLDER API"
+  baseUrl: "https://jsonplaceholder.typicode.com/todos/1"
 
 timeouts:
   connect: 5000   # 5 secunde
